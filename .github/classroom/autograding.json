@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "l1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "l,100,99",
+      "output": "l:100",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "b1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "b,100,99",
+      "output": "b:6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "c1",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "c,100,99",
+      "output": "c:true",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "l2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "l,100,25",
+      "output": "l:26",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "b2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "b,100,25",
+      "output": "b:6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "l3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "l,100,-25",
+      "output": "l:-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "b3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "b,100,-25",
+      "output": "b:-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "l4",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "l,100,0",
+      "output": "l:1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "b4",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "b,100,0",
+      "output": "b:6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "c2",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "c,100,0",
+      "output": "c:false",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "l5",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "l,0,25",
+      "output": "l:-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "b5",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "b,0,25",
+      "output": "b:-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "c3",
+      "setup": "javac *.java",
+      "run": "java -cp . Test",
+      "input": "c,0,25",
+      "output": "false",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
