@@ -45,7 +45,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "b,100,25",
-      "output": "b:6",
+      "output": "b:2",
       "comparison": "included",
       "timeout": 10,
       "points": 5
@@ -55,7 +55,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "l,100,-25",
-      "output": "l:-1",
+      "output": "l:1",
       "comparison": "included",
       "timeout": 10,
       "points": 5
@@ -65,7 +65,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "b,100,-25",
-      "output": "b:-1",
+      "output": "b:1",
       "comparison": "included",
       "timeout": 10,
       "points": 5
