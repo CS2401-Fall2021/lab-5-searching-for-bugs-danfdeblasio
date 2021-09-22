@@ -65,7 +65,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Test",
       "input": "b,100,-25",
-      "output": "b:1",
+      "output": "b:6",
       "comparison": "included",
       "timeout": 10,
       "points": 5
