@@ -64,8 +64,8 @@
       "name": "b3",
       "setup": "javac *.java",
       "run": "java -cp . Test",
-      "input": "b,100,-25",
-      "output": "bs:6",
+      "input": "bs,100,-25",
+      "output": "b:6",
       "comparison": "included",
       "timeout": 10,
       "points": 5
